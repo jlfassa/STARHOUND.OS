@@ -1,0 +1,40 @@
+<UserControl x:Class="STARHOUND.OS.UI.Panels.Agent"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+<Grid Background="#0B1820">
+
+
+    <StackPanel Margin="25">
+
+
+        <TextBlock Text="AGENT PROFILE"
+                   Foreground="#FFAA00"
+                   FontSize="26"
+                   FontFamily="Consolas"/>
+
+
+        <TextBlock Text="NAME: UNKNOWN"
+                   Foreground="White"
+                   FontSize="18"
+                   Margin="0,20,0,0"/>
+
+
+        <TextBlock Text="RANK: RECRUIT"
+                   Foreground="White"
+                   FontSize="18"/>
+
+
+        <TextBlock Text="REPUTATION: 0%"
+                   Foreground="White"
+                   FontSize="18"/>
+
+
+    </StackPanel>
+
+
+</Grid>
+
+
+</UserControl>

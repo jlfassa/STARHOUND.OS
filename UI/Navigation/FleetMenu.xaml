@@ -1,0 +1,67 @@
+<UserControl x:Class="STARHOUND.OS.UI.Navigation.FleetMenu"
+
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+
+             xmlns:components="clr-namespace:STARHOUND.OS.UI.Components">
+
+
+    <Border
+
+        Background="{StaticResource PanelBrush}"
+
+        Padding="10">
+
+
+        <StackPanel>
+
+
+
+            <TextBlock
+
+                Text="FLEET CONTROL"
+
+                FontSize="24"
+
+                Margin="0,0,0,20"/>
+
+
+
+
+
+            <components:NavigationButton Text="BRIDGE"/>
+
+
+            <components:NavigationButton Text="GALAXY MAP"/>
+
+
+            <components:NavigationButton Text="MISSIONS"/>
+
+
+            <components:NavigationButton Text="BOUNTIES"/>
+
+
+            <components:NavigationButton Text="AGENT"/>
+
+
+            <components:NavigationButton Text="CREW"/>
+
+
+            <components:NavigationButton Text="CARGO"/>
+
+
+            <components:NavigationButton Text="MARKET"/>
+
+
+            <components:NavigationButton Text="DATABASE"/>
+
+
+
+        </StackPanel>
+
+
+    </Border>
+
+
+</UserControl>

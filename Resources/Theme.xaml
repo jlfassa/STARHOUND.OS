@@ -1,0 +1,186 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+    <!-- ========================= -->
+    <!-- STARHOUND OS COLOR SYSTEM -->
+    <!-- ========================= -->
+
+
+    <Color x:Key="SpaceBlack">
+        #020509
+    </Color>
+
+
+    <Color x:Key="PanelDark">
+        #07141D
+    </Color>
+
+
+    <Color x:Key="PanelLight">
+        #0D202B
+    </Color>
+
+
+    <Color x:Key="NeonCyan">
+        #00E5FF
+    </Color>
+
+
+    <Color x:Key="Amber">
+        #FFB000
+    </Color>
+
+
+    <Color x:Key="SystemGreen">
+        #00FF88
+    </Color>
+
+
+    <Color x:Key="DangerRed">
+        #FF3344
+    </Color>
+
+
+
+
+
+    <!-- BRUSHES -->
+
+
+    <SolidColorBrush
+        x:Key="BackgroundBrush"
+        Color="{StaticResource SpaceBlack}"/>
+
+
+    <SolidColorBrush
+        x:Key="PanelBrush"
+        Color="{StaticResource PanelDark}"/>
+
+
+    <SolidColorBrush
+        x:Key="PanelLightBrush"
+        Color="{StaticResource PanelLight}"/>
+
+
+    <SolidColorBrush
+        x:Key="CyanBrush"
+        Color="{StaticResource NeonCyan}"/>
+
+
+    <SolidColorBrush
+        x:Key="AmberBrush"
+        Color="{StaticResource Amber}"/>
+
+
+    <SolidColorBrush
+        x:Key="GreenBrush"
+        Color="{StaticResource SystemGreen}"/>
+
+
+    <SolidColorBrush
+        x:Key="RedBrush"
+        Color="{StaticResource DangerRed}"/>
+
+
+
+
+
+    <!-- ========================= -->
+    <!-- GLOBAL FONT -->
+    <!-- ========================= -->
+
+
+    <FontFamily x:Key="TerminalFont">
+        Consolas
+    </FontFamily>
+
+
+
+
+
+
+    <!-- ========================= -->
+    <!-- MAIN TEXT STYLE -->
+    <!-- ========================= -->
+
+
+    <Style TargetType="TextBlock">
+
+
+        <Setter
+            Property="FontFamily"
+            Value="{StaticResource TerminalFont}"/>
+
+
+        <Setter
+            Property="Foreground"
+            Value="{StaticResource CyanBrush}"/>
+
+
+    </Style>
+
+
+
+
+
+
+
+
+    <!-- ========================= -->
+    <!-- FUTURE BUTTON SYSTEM -->
+    <!-- ========================= -->
+
+
+    <Style TargetType="Button">
+
+
+        <Setter
+            Property="Background"
+            Value="{StaticResource PanelLightBrush}"/>
+
+
+        <Setter
+            Property="Foreground"
+            Value="{StaticResource CyanBrush}"/>
+
+
+        <Setter
+            Property="BorderBrush"
+            Value="{StaticResource CyanBrush}"/>
+
+
+        <Setter
+            Property="BorderThickness"
+            Value="1"/>
+
+
+        <Setter
+            Property="FontFamily"
+            Value="{StaticResource TerminalFont}"/>
+
+
+        <Setter
+            Property="FontSize"
+            Value="16"/>
+
+
+        <Setter
+            Property="Padding"
+            Value="12"/>
+
+
+        <Setter
+            Property="Margin"
+            Value="5"/>
+
+
+
+    </Style>
+
+
+
+
+
+</ResourceDictionary>

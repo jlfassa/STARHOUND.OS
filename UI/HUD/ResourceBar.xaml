@@ -1,0 +1,51 @@
+<UserControl x:Class="STARHOUND.OS.UI.HUD.ResourceBar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+
+             xmlns:components="clr-namespace:STARHOUND.OS.UI.Components">
+
+
+    <Grid>
+
+
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+
+        </Grid.ColumnDefinitions>
+
+
+
+        <components:StatusCard
+            Grid.Column="0"/>
+
+
+
+        <components:StatusCard
+            Grid.Column="1"/>
+
+
+
+        <components:StatusCard
+            Grid.Column="2"/>
+
+
+
+        <components:StatusCard
+            Grid.Column="3"/>
+
+
+
+        <components:StatusCard
+            Grid.Column="4"/>
+
+
+
+    </Grid>
+
+
+</UserControl>

@@ -1,0 +1,39 @@
+<UserControl x:Class="STARHOUND.OS.UI.Panels.Missions"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+    <Border Background="#0B1820"
+            BorderBrush="#00E5FF"
+            BorderThickness="1"
+            Padding="20">
+
+
+        <StackPanel>
+
+
+            <TextBlock Text="ACTIVE MISSIONS"
+                       Foreground="#00E5FF"
+                       FontSize="26"
+                       FontFamily="Consolas"/>
+
+
+            <Separator/>
+
+
+            <TextBlock Text="NO ACTIVE CONTRACTS"
+                       Foreground="White"
+                       FontSize="18"/>
+
+
+            <Button Content="SEARCH BOUNTIES"
+                    Margin="0,20,0,0"/>
+
+
+        </StackPanel>
+
+
+    </Border>
+
+
+</UserControl>
